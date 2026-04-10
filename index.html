@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup Form</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+  <body>
+      <div class="container">
+          <div class="form-box login">
+            <form id="loginForm">
+                <h1>Login</h1>
+
+                <div class="input-box">
+                    <input type="varchar" id="loginUsername" placeholder="Username">
+                </div>
+
+               <div class="input-box">
+                    <input type="password" id="loginPassword" placeholder="Password">
+                    <i class='bx bx-hide toggle-password' id="toggleLoginPassword"></i>
+                </div>
+                    
+                    <button type="submit" class="btn">Login</button>
+                    <a href="#" class="forgot">Forgot Password?</a>
+                    <p>or continue with</p>
+
+                <div class="social-icons">
+                    <a href="#"><img src="Google.jpeg"></a>
+                    <a href="#"><img src="Instagram icon.png"></a>
+                    <a href="#"><img src="LInkedin.png"></a>
+                    <a href="#"><img src="Facebook icon.png"></a>
+                </div>
+            </form>
+              
+          </div>
+
+          <div class="form-box SignUp">
+            <form id="SignUp">
+                <h1>SignUp</h1>
+
+                <div class="input-box">
+                    <input type="varchar" id="SignUp-username" placeholder="Username" required>
+                    
+                </div>
+
+                <div class="input-box">
+                    <input type="email" id="SignUpEmail" placeholder="Email" required>
+                    
+                </div>
+
+                <div class="input-box">
+                    <input type="password" id="SignUppassword" placeholder="Password">
+                    <i class='bx bx-hide toggle-password' id="toggleSignupPassword"></i>
+                </div>
+
+                <button type="submit" class="btn">SignUp</button>
+                <p>or continue with </p>
+
+                <div class="social-icons">
+                    <a href="#"><img src="Google.jpeg"></a>
+                    <a href="#"><img src="Instagram icon.png"></a>
+                    <a href="#"><img src="LInkedin.png"></a>
+                    <a href="#"><img src="Facebook icon.png"></a>
+                  </div>
+            </form>
+             
+          </div>
+
+          <div class="toggle-box">
+              <div class="toggle-panel toggle-left">
+                  <h1>Hello, Welcome!</h1>
+                  <p>Don't have an account?</p>
+                  <button class="btn SignUp-btn">SignUp</button>
+              </div>
+
+              <div class="toggle-panel toggle-right">
+                  <h1>Welcome Back!</h1>
+                  <p>Already have an account?</p>
+                  <button class="btn login-btn">Login</button>
+              </div>
+          </div>
+      </div>
+
+      <script src="script2.js"></script>
+  </body>
+</html>
