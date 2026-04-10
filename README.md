@@ -37,7 +37,6 @@ Run the index.html file in your browser.
 
 Learning Outcomes-
 This project helped in understanding:
-
 HTML form elements
 CSS styling and layout design
 UI/UX basics for authentication pages
